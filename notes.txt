@@ -1,1 +1,5 @@
-TBD
+Docker Playground (Having a docker swarm cluster on cloud for free):
+====================================================================
+Link: https://labs.play-with-docker.com/
+Duration: 4 hours Limit then everything is deleted
+
