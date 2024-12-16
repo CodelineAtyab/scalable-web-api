@@ -30,4 +30,3 @@ Section 5: Multi-Container Applications:
 -> We can define ENV with defaults in Dockerfile, this can help with documenting the variables that are needed.
    Users can now mention required environment variables using -e env by looking at the Dockerfile
 
-   
