@@ -43,3 +43,11 @@ Section 7: Utility Containers
    It can also be done by using docker compose run 
 
 
+Section 9: Deploying Containers
+-------------------------------
+
+-> AWS ECS can be used to define tasks -> services 
+-> In ECS a load balancer can be created having a fixed domain
+-> AWS EFS can be used to create bind mounts to persist data
+-> The load balancer can link to internal containers and can also auto scale them
+-> Mongo DB Altas can be used for a scalable DB solution
