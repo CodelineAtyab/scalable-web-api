@@ -30,3 +30,16 @@ Section 5: Multi-Container Applications:
 -> We can define ENV with defaults in Dockerfile, this can help with documenting the variables that are needed.
    Users can now mention required environment variables using -e env by looking at the Dockerfile
 
+Section 6: Multi-Container Orchestration
+----------------------------------------
+
+-> When defining a bind mount path, its allowed to use a relative path if we are mentioning it in the docker-compose
+   If we are defining it while running a container then absolute path is a must for bind mounts
+
+Section 7: Utility Containers
+-----------------------------
+
+-> Just Run the OS in the container and then issue the commands directly when doing docker run 
+   It can also be done by using docker compose run 
+
+
